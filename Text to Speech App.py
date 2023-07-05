@@ -18,7 +18,7 @@ canvas.pack()
 entry = Entry(root)
 canvas.create_window(200, 180, window=entry)
 
-button = Button(text='Start', command=lambda: )
+button = Button(text='Start', command=text_speech)
 canvas.create_window(200, 230, window=button)
 
 
