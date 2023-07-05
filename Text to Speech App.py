@@ -4,6 +4,13 @@ from tkinter import *
 
 root = Tk()
 
+def text_speech():
+    text = entry.get()
+    lang = 'en'
+    output = gTTS(text=text, lang=lang, slow=False)
+
+
+
 canvas = Canvas(root, width=400, height=300)
 canvas.pack()
 
